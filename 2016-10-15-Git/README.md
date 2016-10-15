@@ -1,6 +1,12 @@
+## 相关资料
+
+- [廖雪峰 Git 教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+- [RyPress Git 教程](http://rypress.com/tutorials/git/index)（目录为竖版）
+- [Githug Git 通关游戏](http://www.jianshu.com/p/482b32716bbe)
+
 ## 存储区
 
-## 存储区切换（reset/checkout）
+### 存储区切换（reset/checkout）
 
 ## 配置（config）
 
@@ -9,6 +15,10 @@
 ## 忽略指定文件（.gitignore）
 
 在将自己代码提交 GitHub 时，如 CocoaPods 中的 Pods 文件夹，以及 Mac 平台下的 .DS_Store 文件，都是不需要提交的。
+
+### 忽略文件夹
+
+### 忽略某后缀
 
 ## 暂时存储修改（stash）
 
@@ -28,14 +38,22 @@ git log --a
 
 tag 不会自动 push 到远程，所以需要手动 push。如果有删除需求，也需要手动删除。
 
-## 修改上一个 commit 信息（commit --amend）
+## 修改 commit 信息（commit --amend / rebase -i）
 
-## 修改之前某个 commit 信息 （rebase -i）
+### 修改上一个 commit 信息
 
-## 合并多个 commit（rebase -i）
+### 修改之前某个 commit 信息 
+
+### 合并多个 commit
 
 ## 撤销某个版本（revert）
 
 ## 回滚到某个版本（reset）
 
-## 查看/添加远程库URL（remote）
+## 远程库URL（remote）
+
+#### 查看
+
+#### 删除
+
+#### 添加
