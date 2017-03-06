@@ -68,6 +68,7 @@ git config --local user.email "USER_EMAIL" 	# 添加用户邮箱
 
 ```shell
 git stash			# 可多次调用，压栈
+git stash save "MESSAGE"   # 压栈，并给一个 message，方便查看的时候，知道是什么 stash
 git stash apply 	# 直接运用最顶层(不出栈)
 git stash drop 		# 丢弃栈顶
 git stash pop 		# 出栈(apply + drop)
